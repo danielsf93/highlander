@@ -1,23 +1,6 @@
 {**
  * templates/frontend/pages/indexJournal.tpl
- *
- * Copyright (c) 2014-2020 Simon Fraser University
- * Copyright (c) 2003-2020 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
- *
- * @brief Display the index page for a journal
- *
- * @uses $currentJournal Journal This journal
- * @uses $journalDescription string Journal description from HTML text editor
- * @uses $homepageImage object Image to be displayed on the homepage
- * @uses $additionalHomeContent string Arbitrary input from HTML text editor
- * @uses $announcements array List of announcements
- * @uses $numAnnouncementsHomepage int Number of announcements to display on the
- *       homepage
- * @uses $issue Issue Current issue
- * @uses $issueIdentificationString string issue identification that relies on user's settings
- * @uses $lastSectionColor string background color of the last section presented on the index page
- * @uses $highlanderAnnouncementsColor string background color of the announcements section
+
  *}
 
 {include file="frontend/components/header.tpl" pageTitleTranslated=$currentJournal->getLocalizedName()}
@@ -37,15 +20,96 @@
 				<div class="row">
 					<div class="col-md-6 col-lg-8">
 						{$currentJournal->getLocalizedDescription()}
-						<p>
-							{capture assign="aboutPageUrl"}{url router=$smarty.const.ROUTE_PAGE page="about"}{/capture}
-							<a href="{$aboutPageUrl}" class="btn btn-primary">{translate key="common.readMore"}</a>
-						</p>
+					
 					</div>
 				</div>
 			</div>
 		</section>
 	{/if}
+
+
+
+
+
+
+
+
+
+
+<section class="estatisticas_gerais section_dark"{if $journalDescriptionColour} style="background-color: {$journalDescriptionColour|escape};"{/if}>
+			<div class="container">
+				<header class="row">
+					<h1 class="col-md-6">
+						<p>Estatisticas Gerais:</p>
+					</h1>
+				</header>
+				
+				<header class="row">
+					<h3 class="col-md-6">
+						<p>Revistas:</p>
+					</h3>
+				</header>
+
+				<header class="row">
+					<h3 class="col-md-6">
+						<p>Fascículos:</p>
+					</h3>
+				</header>
+
+				<header class="row">
+					<h3 class="col-md-6">
+						<p>Artigos:</p>
+					</h3>
+				</header>
+
+				<header class="row">
+					<h3 class="col-md-6">
+						<p>Downloads:</p>
+					</h3>
+				</header>
+
+				<header class="row">
+					<h3 class="col-md-6">
+						<p>Acessos:</p>
+					</h3>
+				</header>
+
+
+
+
+
+			</div>
+		</section>
+<hr>
+
+<section class="links section_dark"{if $journalDescriptionColour} style="background-color: {$journalDescriptionColour|escape};"{/if}>
+			<div class="container">
+				<header class="row">
+					<h1 class="col-md-6">
+						<p>Estatisticas Detalhadas:</p>
+					</h1>
+				</header>
+				
+				
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</section>
+
+
+
+
+
+
 
 	{* Announcements *}
 	{if $numAnnouncementsHomepage && $announcements|@count}

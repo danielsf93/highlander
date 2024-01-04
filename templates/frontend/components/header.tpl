@@ -91,6 +91,24 @@
                       <span class="hamburger__icon"></span>
                   </span>
       		</button>
+
+
+<a href="URL"><button>botão</button></a>
+
+<a class="btn btn-primary" href="https://www.freecodecamp.org/">freeCodeCamp</a>  
+
+<a class="btn btn-primary" href="http://0.0.0.0:8888/index.php/estatisticas/">botao 2</a>  
+
+<a class="btn btn-primary" style="background-color: #ff0000; color: #ffffff;" href="http://0.0.0.0:8888/index.php/estatisticas/">botao 3</a>
+
+
+
+
+
+
+
+
+          
       		<h2 class="sr-only">{translate key="plugins.themes.highlander.mainMenu"}</h2>
       		<div class="collapse navbar-collapse" id="main-menu">
       			{$primaryMenu}
