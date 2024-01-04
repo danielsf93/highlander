@@ -1,0 +1,102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-04-23T10:58:55+00:00\n"
+"PO-Revision-Date: 2020-04-23T10:58:55+00:00\n"
+"Language: \n"
+
+msgid "plugins.themes.highlander.name"
+msgstr "Highlander Theme"
+
+msgid "plugins.themes.highlander.description"
+msgstr "An OJS theme with full-page images, large typefaces, and bold colour blocks tailored for journals with a focus on visuals."
+
+msgid "plugins.themes.highlander.colorPick"
+msgstr "Color Picker"
+
+msgid "plugins.themes.highlander.colorPickInstructions"
+msgstr "Pick a color for a section to display on the journal's front-end. Must be valid HTML hex code (e.g., #ffff00 for yellow)."
+
+msgid "plugins.themes.highlander.section.coverPage"
+msgstr "Section Cover Image"
+
+msgid "plugins.themes.highlander.announcements.colorPick"
+msgstr "Announcements section colour on the journal's home page"
+
+msgid "editor.issues.sectionArea"
+msgstr "Options for issue's sections"
+
+msgid "plugins.themes.highlander.issue.published"
+msgstr "Published"
+
+msgid "plugins.themes.highlander.issue.description"
+msgstr "Issue description"
+
+msgid "plugins.themes.highlander.registration.consent"
+msgstr "Consent"
+
+msgid "plugins.themes.highlander.mainMenu"
+msgstr "Main menu"
+
+msgid "plugins.themes.highlander.language.toggle"
+msgstr "Change the language. The current language is:"
+
+msgid "plugins.themes.highlander.adminMenu"
+msgstr "Admin menu"
+
+msgid "plugins.themes.highlander.about.journal"
+msgstr "About the journal"
+
+msgid "plugins.themes.highlander.issue.fullIssueLink"
+msgstr "See the full issue"
+
+msgid "plugins.themes.highlander.search.parameters"
+msgstr "Parameters"
+
+msgid "plugins.themes.highlander.article.biography"
+msgstr "Bio"
+
+msgid "plugins.themes.highlander.article.figure"
+msgstr "Cover image"
+
+msgid "plugins.themes.highlander.authors.browse"
+msgstr "Browse by Author"
+
+msgid "plugins.themes.highlander.author.details"
+msgstr "Author Details"
+
+msgid "plugins.themes.highlander.options.sectionDescription.label"
+msgstr "Show section description"
+
+msgid "plugins.themes.highlander.options.sectionDescription.description"
+msgstr "If activated, the section description will be shown under the appropriate section on the journal homepage"
+
+msgid "plugins.themes.highlander.options.sectionDescription.disable"
+msgstr "Disable"
+
+msgid "plugins.themes.highlander.options.sectionDescription.enable"
+msgstr "Enable; requires Browse By Section plugin to be activated"
+
+msgid "plugins.themes.highlander.options.journalDescription.label"
+msgstr "Show journal description"
+
+msgid "plugins.themes.highlander.options.journalDescription.description"
+msgstr "If enabled, the journal description will be shown on the journal's landing page"
+
+msgid "plugins.themes.highlander.options.journalDescription.disable"
+msgstr "Disable (default)"
+
+msgid "plugins.themes.highlander.options.journalDescription.enable"
+msgstr "Enable"
+
+msgid "plugins.themes.highlander.options.journalDescriptionColour.label"
+msgstr "Journal description background"
+
+msgid "plugins.themes.highlander.options.journalDescriptionColour.description"
+msgstr "Background colour for the journal description section on the journal home page"

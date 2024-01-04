@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-23T10:58:39+00:00\n"
+"PO-Revision-Date: 2021-01-21 14:53+0000\n"
+"Last-Translator: Heike Riegler <heike.riegler@julius-kuehn.de>\n"
+"Language-Team: German <http://translate.pkp.sfu.ca/projects/plugins/"
+"highlander/de_DE/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.themes.highlander.name"
+msgstr "Highlander-Theme"
+
+msgid "plugins.themes.highlander.description"
+msgstr "Ein Theme für OJS 3.1.1+, das einen Schwerpunkt auf immersives Lesen legt und einige gewagte Designmöglichkeiten bietet wie z.B. Farbangaben für ganze Rubriken."
+
+msgid "plugins.themes.highlander.colorPick"
+msgstr "Farbwähler"
+
+msgid "plugins.themes.highlander.colorPickInstructions"
+msgstr "Wählen Sie eine Farbe für eine Rubrik, die im Frontend der Zeitschrift angezeigt wird. Sie müssen einen gültigen HTML-Hexcode angeben (z.B. #ffff00 für gelb)."
+
+msgid "plugins.themes.highlander.section.coverPage"
+msgstr "Titelbild einer Rubrik"
+
+msgid "plugins.themes.highlander.announcements.colorPick"
+msgstr "Rubrikenfarbe für Ankündigungen auf der Homepage der Zeitschrift"
+
+msgid "editor.issues.sectionArea"
+msgstr "Optionen für Rubriken der Ausgabe"
+
+msgid "plugins.themes.highlander.issue.published"
+msgstr "Veröffentlicht"
+
+msgid "plugins.themes.highlander.issue.description"
+msgstr "Beschreibung der Ausgabe"
+
+msgid "plugins.themes.highlander.registration.consent"
+msgstr "Zustimmung"
+
+msgid "plugins.themes.highlander.mainMenu"
+msgstr "Hauptmenü"
+
+msgid "plugins.themes.highlander.language.toggle"
+msgstr "Sprache ändern. Aktuell ausgewählte Sprache ist:"
+
+msgid "plugins.themes.highlander.adminMenu"
+msgstr "Administrationsmenü"
+
+msgid "plugins.themes.highlander.issue.fullIssueLink"
+msgstr "Komplette Ausgabe sehen"
+
+msgid "plugins.themes.highlander.search.parameters"
+msgstr "Parameter"
+
+msgid "plugins.themes.highlander.article.biography"
+msgstr "Biografie"
+
+msgid "plugins.themes.highlander.article.figure"
+msgstr "Titelbild"
+
+msgid "plugins.themes.highlander.authors.browse"
+msgstr "Nach Autor/in blättern"
+
+msgid "plugins.themes.highlander.author.details"
+msgstr "Autor/innendetails"
+
+msgid "plugins.themes.highlander.options.sectionDescription.label"
+msgstr "Beschreibung der Rubrik anzeigen"
+
+msgid "plugins.themes.highlander.options.sectionDescription.description"
+msgstr "Wenn diese Option aktiviert ist, wird die Beschreibung der Rubrik unter der jeweiligen Rubrik auf der Homepage der Zeitschrift angezeigt."
+
+msgid "plugins.themes.highlander.options.sectionDescription.disable"
+msgstr "Deaktivieren"
+
+msgid "plugins.themes.highlander.options.sectionDescription.enable"
+msgstr "Aktivieren; erfordert die Aktivierung des Browse-By-Section-Plugins"
+
+msgid "plugins.themes.highlander.options.journalDescriptionColour.description"
+msgstr ""
+"Hintergrundfarbe des Abschnitts der Zeitschriftenbeschreibung auf der "
+"Zeitschriftenstartseite"
+
+msgid "plugins.themes.highlander.options.journalDescriptionColour.label"
+msgstr "Hintergrund der Zeitschriftenbeschreibung"
+
+msgid "plugins.themes.highlander.options.journalDescription.enable"
+msgstr "Aktivieren"
+
+msgid "plugins.themes.highlander.options.journalDescription.disable"
+msgstr "Deaktivieren (Standard)"
+
+msgid "plugins.themes.highlander.options.journalDescription.description"
+msgstr ""
+"Wenn aktiviert, wird die Zeitschriftenbeschreibung auf der Startseite der "
+"Zeitschrift angezeigt"
+
+msgid "plugins.themes.highlander.options.journalDescription.label"
+msgstr "Beschreibung der Zeitschrift anzeigen"
+
+msgid "plugins.themes.highlander.about.journal"
+msgstr "Über die Zeitschrift"
